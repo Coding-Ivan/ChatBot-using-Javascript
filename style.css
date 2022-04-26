@@ -1,0 +1,120 @@
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+   }  
+   body {  
+    width: 100vw;  
+    height: 100vh;  
+    font-family: sans-serif;  
+    padding: 10em 10em;  
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbVhZrx3lk-2VvDHHa2r7DqNYV6l9vhf0n7A&usqp=CAU);  
+    opacity: 0.5;  
+    background-position: center;  
+    background-repeat: no-repeat;  
+    background-position: 100% 20%;  
+    background-size: cover;  
+    display: flex;  
+    align-items: center;  
+    justify-content: space-between;  
+   }  
+   .head{
+       color: #f7f7f7;
+       font-family: 'Times New Roman', Times, serif;
+       font-weight: bold;
+       margin-left: 350px;
+       font-size: x-large;
+   }
+   .glass {  
+    width: 1000px;  
+    height: fit-content;  
+    background-color: rgba(83, 80, 80, 0.1);  
+    padding: 50px;  
+    color: #f0eeee;  
+    border-radius: 9px;  
+    backdrop-filter: blur(50px);  
+    border: 2px solid transparent;  
+    background-clip: padding-box;  
+    box-shadow: 10px 10px 10px #f9fafa4d;  
+    line-height: 1.5;  
+    transform: translatey(-5%);  
+    transition: transform 0.5s;  
+   }  
+   .glass-1 {  
+    width: 500px;  
+    height: 400px;  
+    background-color: rgba(255, 255, 255, 0.1);  
+    padding: 50px;  
+    color: #f1ecec;  
+    border-radius: 9px;  
+    backdrop-filter: blur(50px);  
+    border: 2px solid transparent;  
+    background-clip: padding-box;  
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);  
+    line-height: 1.5;  
+    transform: translatey(-5%);  
+    transition: transform 0.5s;  
+    font-size: 1.7rem;  
+   }  
+   .glass h1 {  
+    font-size: 1.5rem;  
+    text-align: center;  
+   }  
+   .glass h2 {  
+    font-size: 1rem;  
+    margin-top: 20px;  
+   }  
+   .input {  
+    width: 100%;  
+    height: 70px;  
+    overflow: hidden;  
+    margin-top: 40px;  
+   }  
+   .input input {  
+    width: 100%;  
+    height: 70px;  
+    border: none;  
+    padding-left: 30px;  
+    padding-top: 0;  
+    outline: none;  
+    font-size: 1.5rem;  
+    border-radius: 20px;  
+   }  
+   .glass p {  
+    font-size: 1.6rem;  
+    margin-top: 30px;  
+   }  
+   @media screen and (max-width: 800px) {
+       body{
+           width: 100%;
+
+       }
+    #userBox {
+      width: 100%;
+      margin-top: 0;
+      padding: 5px;
+      font-size: 20px;
+      height: fit-content;
+      border-radius: 5px;
+    }
+    .glass{
+        width: 100%;
+        height: fit-content;
+        padding: 5px;
+        margin: 0;
+    }
+    .glass-1{
+        
+        width: 100%;
+        height: fit-content;
+        padding: 5px;
+        margin: 0;
+    }
+    .head{
+        color: #fafdff;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin-left:10px;
+        font-size:medium;
+}
+   }
