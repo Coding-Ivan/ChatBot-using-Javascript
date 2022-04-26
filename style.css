@@ -16,7 +16,7 @@
     background-size: cover;  
     display: flex;  
     align-items: center;  
-    justify-content: space-between;  
+    
    }  
    .head{
        color: #f7f7f7;
@@ -98,14 +98,14 @@
       border-radius: 5px;
     }
     .glass{
-        width: 100%;
+        width: 900px;
         height: fit-content;
         padding: 5px;
         margin: 0;
     }
     .glass-1{
         
-        width: 100%;
+        width: 900px;
         height: fit-content;
         padding: 5px;
         margin: 0;
@@ -116,5 +116,40 @@
         font-weight: bold;
         margin-left:10px;
         font-size:medium;
+}
+
+   }
+   @media only screen and (max-width:500px){
+    body{
+        width: 100%;
+
+    }
+ #userBox {
+   width: 100%;
+   margin-top: 0;
+   padding: 5px;
+   font-size: 20px;
+   height: fit-content;
+   border-radius: 5px;
+ }
+ .glass{
+    width: 900px;
+     height: fit-content;
+     padding: 5px;
+    
+ }
+ .glass-1{
+     
+     width: 900px;
+     height: fit-content;
+     padding: 5px;
+    
+ }
+ .head{
+     color: #fafdff;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     margin-left:10px;
+     font-size:medium;
 }
    }
